@@ -18,7 +18,7 @@ class App extends Component {
         { name: "Carl L.", salary: 5000, increase: false, rice: false, id: 3 },
       ],
       term:'',
-      filter:'rice'
+      filter:'all'
     };
   }
   deleteItem = (id) => {

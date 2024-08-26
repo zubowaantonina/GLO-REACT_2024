@@ -24,6 +24,8 @@ class EmployersAddForm extends Component {
         name: "",
         salary: "",
       });
+    }else{
+      alert("Заполниете ВСЕ пустые поля");
     }
 
   };
